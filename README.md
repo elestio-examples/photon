@@ -4,7 +4,7 @@
 
 Deploy Photon server with CI/CD on Elestio
 
-<img src="photon.jpg" style='width: 200px;'/>
+<img src="photon.png" style='width: 100%;'/>
 <br/>
 <br/>
 

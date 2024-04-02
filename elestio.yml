@@ -22,7 +22,7 @@ config:
   buildDir: "/"
   runCommand: "docker-compose up -d"
   icon: ""
-  screenshot: "photon.jpg"
+  screenshot: "photon.png"
 lifeCycleConfig:
   preInstallCommand: "./scripts/preInstall.sh"
   postInstallCommand: "./scripts/postInstall.sh"

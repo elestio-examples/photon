@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    image: ghcr.io/xyphyn/photon:${SOFTWARE_VERSION_TAG}
+    restart: always
+    environment:
+      - PUBLIC_INSTANCE_URL=${PUBLIC_INSTANCE_URL}
+    ports:
+      - "172.17.0.1:9009:3000"

@@ -6,5 +6,6 @@ services:
     restart: always
     environment:
       - PUBLIC_INSTANCE_URL=${PUBLIC_INSTANCE_URL}
+      - PUBLIC_LOCK_TO_INSTANCE=${PUBLIC_LOCK_TO_INSTANCE}
     ports:
       - "172.17.0.1:9009:3000"

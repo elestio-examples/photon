@@ -12,6 +12,8 @@ environments:
     value: "latest"
   - key: "PUBLIC_INSTANCE_URL"
     value: "lemmy.ml"
+  - key: "PUBLIC_LOCK_TO_INSTANCE"
+    value: "false"
 config:
   runTime: "dockerCompose"
   version: ""

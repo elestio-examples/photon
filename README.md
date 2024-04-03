@@ -45,7 +45,7 @@ You will start over with a fresh instance of Lemmy directly configured with the 
 
 # Configure Own Instance
 
-By default, we set it up to display the `lemmy.ml` instance in the UI. However, if you prefer to use your Lemmy service, please follow the instructions below.
+By default, we set it up to display the inbuild Lemmy instance in the UI. However, if you prefer to use other Lemmy service, please follow the instructions below.
 
 ### Dedicated Service:
 1. Open the Elestio dashboard

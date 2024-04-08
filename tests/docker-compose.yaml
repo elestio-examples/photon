@@ -1,0 +1,8 @@
+web:
+  image: elestio4test/photon:${SOFTWARE_VERSION_TAG}
+  restart: always
+  environment:
+    - PUBLIC_INSTANCE_URL=${DOMAIN}
+    - PUBLIC_LOCK_TO_INSTANCE="true"
+  ports:
+    - "172.17.0.1:9009:3000"

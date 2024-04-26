@@ -28,6 +28,8 @@ environments:
     value: "0.19.3"
   - key: "PUBLIC_INSTANCE_URL"
     value: "[CI_CD_DOMAIN]"
+  - key: "PUBLIC_LOCK_TO_INSTANCE"
+    value: "true"
 config:
   runTime: "dockerCompose"
   version: ""

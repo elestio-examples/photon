@@ -25,7 +25,7 @@ environments:
   - key: "SOFTWARE_VERSION_TAG"
     value: "latest"
   - key: "LEMMY_VERSION_TAG"
-    value: "0.19.3"
+    value: "0.19.4"
   - key: "PUBLIC_INSTANCE_URL"
     value: "[CI_CD_DOMAIN]"
   - key: "PUBLIC_LOCK_TO_INSTANCE"

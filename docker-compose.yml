@@ -30,7 +30,7 @@ services:
       - postgres
       - pictrs
 
-  ictrs:
+  pictrs:
     image: asonix/pictrs:0.5.16
     # this needs to match the pictrs url in lemmy.hjson
     hostname: pictrs
